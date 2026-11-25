@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <section>
+            <h2>Targetes de cotxes</h2>
+            <div id="targetes"></div>
+        </section>
+
+        <section>
+            <h2>Comparació de cotxes</h2>
+            <select id="cotxe1"></select>
+            <select id="cotxe2"></select>
+            <button id="btnComparar">Comparar</button>
+            <p id="errorComparar" class="error"></p>
+            <div id="resultatComprar"></div>
+        </section>
+
+        <section>
+            <h2>Cerca de potència</h2>
+            <label for="potenciaMin">Buscar cotxes amb més de (CV): 
+                <input type="number" id="potenciaMin">
+            </label>
+            <p id="errorCerca" class="error"></p>
+            <button id="btnCerca">Cerca</button>
+            <div id="resultatCerca"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
